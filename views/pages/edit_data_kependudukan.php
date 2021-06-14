@@ -242,18 +242,51 @@ if (isset($_POST['edit_data'])) {
                                         <option value="1" selected>Kepala Keluarga</option>
                                         <option value="3">Istri</option>
                                         <option value="9">Anak</option>
+                                        <option value="7">Kakek</option>
+                                        <option value="6">Nenek</option>
+                                        <option value="4">Family Lain</option>
                                     <?php elseif ($row['HBKEL'] == 3) : ?>
                                         <option value="1">Kepala Keluarga</option>
                                         <option value="3" selected>Istri</option>
                                         <option value="9">Anak</option>
+                                        <option value="7">Kakek</option>
+                                        <option value="6">Nenek</option>
+                                        <option value="4">Family Lain</option>
                                     <?php elseif ($row['HBKEL'] == 9) : ?>
                                         <option value="1">Kepala Keluarga</option>
                                         <option value="3">Istri</option>
                                         <option value="9" selected>Anak</option>
+                                        <option value="7">Kakek</option>
+                                        <option value="6">Nenek</option>
+                                        <option value="4">Family Lain</option>
+                                    <?php elseif ($row['HBKEL'] == 7) : ?>
+                                        <option value="1">Kepala Keluarga</option>
+                                        <option value="3">Istri</option>
+                                        <option value="9">Anak</option>
+                                        <option value="7" selected>Kakek</option>
+                                        <option value="6">Nenek</option>
+                                        <option value="4">Family Lain</option>
+                                    <?php elseif ($row['HBKEL'] == 6) : ?>
+                                        <option value="1">Kepala Keluarga</option>
+                                        <option value="3">Istri</option>
+                                        <option value="9">Anak</option>
+                                        <option value="7">Kakek</option>
+                                        <option value="6" selected>Nenek</option>
+                                        <option value="4">Family Lain</option>
+                                    <?php elseif ($row['HBKEL'] == 4) : ?>
+                                        <option value="1">Kepala Keluarga</option>
+                                        <option value="3">Istri</option>
+                                        <option value="9">Anak</option>
+                                        <option value="7">Kakek</option>
+                                        <option value="6">Nenek</option>
+                                        <option value="4" selected>Family Lain</option>
                                     <?php else : ?>
                                         <option value="1">Kepala Keluarga</option>
                                         <option value="3">Istri</option>
                                         <option value="9">Anak</option>
+                                        <option value="7">Kakek</option>
+                                        <option value="6">Nenek</option>
+                                        <option value="4">Family Lain</option>
                                     <?php endif; ?>
                                 </select>
                             </div>

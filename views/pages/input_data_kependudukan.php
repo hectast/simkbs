@@ -93,6 +93,9 @@
                                      <option value="1">Kepala Keluarga</option>
                                      <option value="3">Istri</option>
                                      <option value="9">Anak</option>
+                                     <option value="7">Kakek</option>
+                                     <option value="6">Nenek</option>
+                                     <option value="4">Family Lain</option>
                                  </select>
                              </div>
                          </div>

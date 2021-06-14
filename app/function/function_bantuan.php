@@ -147,7 +147,7 @@ function tampil_rekom_blt($mysqli)
 
         $data_array = [];
 
-        if ($d1 == 1) {
+        if ($d1 == 0) {
             array_push($data_array, true);
         }
 
@@ -183,7 +183,7 @@ function tampil_rekom_blt($mysqli)
             array_push($data_array, true);
         }
 
-        if ($d13 < 750000) {
+        if ($d13 <= 750000) {
             array_push($data_array, true);
         }
 
