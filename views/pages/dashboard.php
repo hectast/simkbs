@@ -194,7 +194,7 @@
                 </div>
             </div>
         </div>
-        
+
     </div>
 </section>
 
@@ -222,17 +222,15 @@ $rows_penerima_bpnt3 = mysqli_num_rows($penerima_bpnt3);
         type: 'bar',
         data: {
             labels: ['Dusun 1', 'Dusun 2', 'Dusun 3'],
-            datasets: [
-                {
-                    label: 'Penerima Bantuan',
-                    data: [<?= $rows_penerima_bpnt1; ?>, <?= $rows_penerima_bpnt2; ?>, <?= $rows_penerima_bpnt3; ?>],
-                    backgroundColor: [
-                        '#6610f2',
-                        '#6610f2',
-                        '#6610f2'
-                    ]
-                }
-            ]
+            datasets: [{
+                label: 'Penerima Bantuan',
+                data: [<?= $rows_penerima_bpnt1; ?>, <?= $rows_penerima_bpnt2; ?>, <?= $rows_penerima_bpnt3; ?>],
+                backgroundColor: [
+                    '#6610f2',
+                    '#6610f2',
+                    '#6610f2'
+                ]
+            }]
         },
         options: {
             responsive: true,
@@ -272,17 +270,15 @@ $rows_penerima_pkh3 = mysqli_num_rows($penerima_pkh3);
         type: 'bar',
         data: {
             labels: ['Dusun 1', 'Dusun 2', 'Dusun 3'],
-            datasets: [
-                {
-                    label: 'Penerima Bantuan',
-                    data: [<?= $rows_penerima_pkh1; ?>, <?= $rows_penerima_pkh2; ?>, <?= $rows_penerima_pkh3; ?>],
-                    backgroundColor: [
-                        '#6610f2',
-                        '#6610f2',
-                        '#6610f2'
-                    ]
-                }
-            ]
+            datasets: [{
+                label: 'Penerima Bantuan',
+                data: [<?= $rows_penerima_pkh1; ?>, <?= $rows_penerima_pkh2; ?>, <?= $rows_penerima_pkh3; ?>],
+                backgroundColor: [
+                    '#6610f2',
+                    '#6610f2',
+                    '#6610f2'
+                ]
+            }]
         },
         options: {
             responsive: true,
@@ -322,17 +318,15 @@ $rows_penerima_bst3 = mysqli_num_rows($penerima_bst3);
         type: 'bar',
         data: {
             labels: ['Dusun 1', 'Dusun 2', 'Dusun 3'],
-            datasets: [
-                {
-                    label: 'Penerima Bantuan',
-                    data: [<?= $rows_penerima_bst1; ?>, <?= $rows_penerima_bst2; ?>, <?= $rows_penerima_bst3; ?>],
-                    backgroundColor: [
-                        '#6610f2',
-                        '#6610f2',
-                        '#6610f2'
-                    ]
-                }
-            ]
+            datasets: [{
+                label: 'Penerima Bantuan',
+                data: [<?= $rows_penerima_bst1; ?>, <?= $rows_penerima_bst2; ?>, <?= $rows_penerima_bst3; ?>],
+                backgroundColor: [
+                    '#6610f2',
+                    '#6610f2',
+                    '#6610f2'
+                ]
+            }]
         },
         options: {
             responsive: true,
@@ -372,17 +366,15 @@ $rows_penerima_blt3 = mysqli_num_rows($penerima_blt3);
         type: 'bar',
         data: {
             labels: ['Dusun 1', 'Dusun 2', 'Dusun 3'],
-            datasets: [
-                {
-                    label: 'Penerima Bantuan',
-                    data: [<?= $rows_penerima_blt1; ?>, <?= $rows_penerima_blt2; ?>, <?= $rows_penerima_blt3; ?>],
-                    backgroundColor: [
-                        '#6610f2',
-                        '#6610f2',
-                        '#6610f2'
-                    ]
-                }
-            ]
+            datasets: [{
+                label: 'Penerima Bantuan',
+                data: [<?= $rows_penerima_blt1; ?>, <?= $rows_penerima_blt2; ?>, <?= $rows_penerima_blt3; ?>],
+                backgroundColor: [
+                    '#6610f2',
+                    '#6610f2',
+                    '#6610f2'
+                ]
+            }]
         },
         options: {
             responsive: true,
